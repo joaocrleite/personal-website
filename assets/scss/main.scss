@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css');
+
+
+html,
+body,
+#__nuxt,
+#__layout,
+.grid-container,
+aside,
+main {
+  height: 100%;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  padding: 50px;
+  background: linear-gradient(210deg, #F14450, #D12268);
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 300px auto;
+  box-shadow: 3px 6px 20px rgba(0,0,0,.4);
+}
+
+
+aside {
+  background-color: #eee;
+
+  .profile{
+    figure {
+      margin-bottom: 10px;
+      img {
+        display: block;
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        margin: 50px auto 15px auto;
+      }
+
+      figcaption {
+        color: #474747;
+        text-align: center;
+
+      }
+
+    }
+    .links{
+
+    }
+  }
+
+
+  nav {
+    margin-top: 50px;
+
+    ul.menu-list {
+      li {
+
+        a {
+          border-radius: 0;
+          padding: 1em 3em;
+          transition: background-color .3s;
+
+          &.is-active {
+            background-color: #fff;
+            color: #474747;
+          }
+        }
+
+      }
+    }
+  }
+
+}
+
+main {
+  background-color: #fff;
+}
