@@ -1,6 +1,11 @@
 
+const env = require('dotenv').config();
+
 module.exports = {
   mode: 'universal',
+
+  env: env.parsed,
+
   /*
   ** Headers of the page
   */
@@ -19,8 +24,8 @@ module.exports = {
   ** Customize the progress-bar color
   */
   loading: {
-    color: 'blue',
-    height: '5px'
+    // color: 'blue',
+    // height: '5px'
   },
   /*
   ** Global CSS
@@ -32,6 +37,7 @@ module.exports = {
   ** Plugins to load before mounting the App
   */
   plugins: [
+    // '~/plugins/axios.js'
   ],
   /*
   ** Nuxt.js modules
@@ -47,6 +53,7 @@ module.exports = {
   ** See https://axios.nuxtjs.org/options
   */
   axios: {
+    baseURL: process.env.API_BASE
   },
   /*
   ** Build configuration

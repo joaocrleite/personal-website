@@ -22,7 +22,7 @@
               <i class="fas fa-envelope"></i>
             </span>
           </a>
-          <a href="https://www.linkedin.com/in/joaocrleite" target="_blank" class="button is-light">
+          <a href="https://github.com/joaocrleite" target="_blank" class="button is-light">
             <span class="icon has-text-black">
               <i class="fab fa-github"></i>
             </span>
@@ -36,6 +36,8 @@
     <main>
       <nuxt/>
     </main>
+
+    <b-loading :active.sync="loading"></b-loading>
   </div>
 </template>
 
@@ -47,6 +49,11 @@ export default {
   },
   components: {
     NavBar
+  },
+  computed:{
+    loading(){
+      return this.$store.state.loading;
+    }
   }
 };
 </script>

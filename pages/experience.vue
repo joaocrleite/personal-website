@@ -1,5 +1,5 @@
 <template>
-  <section class="section">
+  <section>
     <h2 class="title is-4">Tecnologias</h2>
 
     <b-tabs position="is-centered" class="block" v-model="activeTech">
@@ -188,6 +188,9 @@ export default {
         }
       ]
     };
+  },
+  mounted(){
+    this.$store.commit('CLOSE_MENU');
   }
 };
 </script>
