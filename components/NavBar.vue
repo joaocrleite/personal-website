@@ -21,17 +21,17 @@ export default {
     return {
       items: [
         {
-          title: 'Sobre',
+          title: 'About',
           icon: 'home',
           to: { name : 'index' }
         },
         {
-          title: 'Experiência',
+          title: 'Experience',
           icon: 'about',
           to: { name : 'experience' }
         },
         {
-          title: 'Contato',
+          title: 'Contact',
           icon: 'about',
           to: { name : 'contact' }
         }

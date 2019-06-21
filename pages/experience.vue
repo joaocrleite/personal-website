@@ -1,6 +1,6 @@
 <template>
   <section>
-    <h2 class="title is-4">Tecnologias</h2>
+    <h2 class="title is-4">Tech</h2>
 
     <b-tabs position="is-centered" class="block" v-model="activeTech">
       <b-tab-item label="Todas">
@@ -47,21 +47,20 @@
       </b-tab-item>
     </b-tabs>
 
-    <h2 class="title is-4">Projetos</h2>
+    <h2 class="title is-4">Projects</h2>
 
     <div class="content">
-      <h3 class="subtitle is-size-6">RFID Readers e Tags - 2019</h3>
-      <p>
-        Foi um grande desafio, o cliente precisava que o Leitor de RFID Tags fosse integrado e gerenciado por um Dashboard nas nuvens, Eu abracei o projeto e iniciei estudando a integração do aparelho e fazendo um levantamento estratégico de quais tecnologias eu utilizaria para tal projeto.
-        A integração com o Leitor, criei um Middleware em C# na qual o fornecedor do Reader possuía suporte também, subi um servidor em Node.js Com Socket.io e por final o WebApp utilizando Nuxt.js(Vue.JS) para controlar, gerenciar e receber as leituras das RFID Tags em tempo real.
-        Na qual a ponte entre o C# e WebApp era o Socket.io, antes de ser enviada para processamento na API(Larave) desenvolvida por eles, na qual também implementei algun Endpoints, e Querys para armazenagem em banco de dados(Oracle).
-      </p>
+      <h3 class="subtitle is-size-6">Lorem, ipsum dolor.</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore quis cum dolore repudiandae reprehenderit culpa explicabo sint aperiam illo nobis voluptatibus qui, ipsam eligendi ea doloribus, laboriosam iste voluptatem, tempore nesciunt exercitationem! Alias ipsum debitis nisi et inventore minus laudantium corporis natus, sunt iste. Repudiandae enim eaque tempora eos asperiores.</p>
 
-      <h3 class="subtitle is-size-6">CRM - 2015</h3>
-      <p>
-        Um dos primeiros desafios no inicio da minha carreira, implementei um CRM na empresa na qual trabalhava na época.
-        Com já 4 anos de experiência como desenvolvedor PHP eu desenvolvi o sistema utilizando o framework PHP Codeigniter personalizado que criei como base no Back-End, banco de dados MySQL, Bootstrap 3 /Jquery para o Front-End, integração com a API da Cielo para o sistema de pagamentos únicos e mensais, gerenciamento de Leads, Grupos e Envios de E-mail Marketing automatizados/programados para a captação/Engajamento dos Leads
-      </p>
+      <h3 class="subtitle is-size-6">Lorem, ipsum dolor.</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore quis cum dolore repudiandae reprehenderit culpa explicabo sint aperiam illo nobis voluptatibus qui, ipsam eligendi ea doloribus, laboriosam iste voluptatem, tempore nesciunt exercitationem! Alias ipsum debitis nisi et inventore minus laudantium corporis natus, sunt iste. Repudiandae enim eaque tempora eos asperiores.</p>
+
+      <h3 class="subtitle is-size-6">Lorem, ipsum dolor.</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore quis cum dolore repudiandae reprehenderit culpa explicabo sint aperiam illo nobis voluptatibus qui, ipsam eligendi ea doloribus, laboriosam iste voluptatem, tempore nesciunt exercitationem! Alias ipsum debitis nisi et inventore minus laudantium corporis natus, sunt iste. Repudiandae enim eaque tempora eos asperiores.</p>
+
+      <h3 class="subtitle is-size-6">Lorem, ipsum dolor.</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore quis cum dolore repudiandae reprehenderit culpa explicabo sint aperiam illo nobis voluptatibus qui, ipsam eligendi ea doloribus, laboriosam iste voluptatem, tempore nesciunt exercitationem! Alias ipsum debitis nisi et inventore minus laudantium corporis natus, sunt iste. Repudiandae enim eaque tempora eos asperiores.</p>
     </div>
   </section>
 </template>
@@ -189,8 +188,8 @@ export default {
       ]
     };
   },
-  mounted(){
-    this.$store.commit('CLOSE_MENU');
+  mounted() {
+    this.$store.commit("CLOSE_MENU");
   }
 };
 </script>

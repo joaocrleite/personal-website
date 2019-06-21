@@ -1,31 +1,31 @@
 <template>
   <section>
-    <h2 class="title is-4">Eai, blz!?</h2>
+    <h2 class="title is-4">Lorem, ipsum dolor.</h2>
 
     <p class="subtitle is-6">To: joaocrleite@gmail.com</p>
 
-    <b-field label="Nome" :message="errors.name" :type="errors.name ? 'is-danger' : ''">
+    <b-field label="Name" :message="errors.name" :type="errors.name ? 'is-danger' : ''">
       <b-input maxlength="50" v-model="form.name"></b-input>
     </b-field>
 
-    <b-field label="E-mail" :message="errors.email" :type="errors.email ? 'is-danger' : ''">
+    <b-field label="Email" :message="errors.email" :type="errors.email ? 'is-danger' : ''">
       <b-input maxlength="50" v-model="form.email"></b-input>
     </b-field>
 
-    <b-field label="Empresa" :message="errors.company" :type="errors.company ? 'is-danger' : ''">
+    <b-field label="Company" :message="errors.company" :type="errors.company ? 'is-danger' : ''">
       <b-input maxlength="50" v-model="form.company"></b-input>
     </b-field>
 
-    <b-field label="Assunto" :message="errors.subject" :type="errors.subject ? 'is-danger' : ''">
+    <b-field label="Subject" :message="errors.subject" :type="errors.subject ? 'is-danger' : ''">
       <b-input maxlength="100" v-model="form.subject"></b-input>
     </b-field>
 
-    <b-field label="Mensagem" :message="errors.message" :type="errors.message ? 'is-danger' : ''">
+    <b-field label="Message" :message="errors.message" :type="errors.message ? 'is-danger' : ''">
       <b-input maxlength="200" type="textarea" v-model="form.message"></b-input>
     </b-field>
 
     <button class="button is-primary" @click="submit">
-      <span>Manda bala</span>
+      <span>Send</span>
       <span class="icon">
         <i class="fas fa-paper-plane"></i>
       </span>
@@ -62,7 +62,7 @@ export default {
           this.$store.commit("STOP_LOADING");
 
           this.$toast.open({
-              message: 'Formulário enviado com sucesso!',
+              message: 'Success!',
               type: 'is-success'
           });
 
