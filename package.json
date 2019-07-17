@@ -1,8 +1,8 @@
 {
   "name": "joaocrleite.com",
   "version": "1.0.0",
-  "description": "My scrumtrulescent Nuxt.js project",
-  "author": "João Carlos",
+  "description": "Full Stack Developer - João Leite",
+  "author": "João Leite",
   "private": true,
   "scripts": {
     "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",

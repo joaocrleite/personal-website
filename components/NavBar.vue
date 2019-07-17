@@ -26,6 +26,11 @@ export default {
           to: { name : 'index' }
         },
         {
+          title: 'Personal Projects',
+          icon: 'about',
+          to: { name : 'apps' }
+        },
+        {
           title: 'Experience',
           icon: 'about',
           to: { name : 'experience' }
