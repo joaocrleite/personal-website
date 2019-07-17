@@ -3,7 +3,7 @@
     <h2 class="title is-4">My Apps</h2>
 
     <div class="columns is-multiline">
-      <div class="column is-3" v-for="app in apps" :key="app.id">
+      <div class="column is-6" v-for="app in apps" :key="app.id">
         <div class="card">
           <div class="card-image">
             <figure class="image is-16by9">
@@ -49,6 +49,16 @@ export default {
     return {
       apps:[
         {
+          id: 4,
+          title: 'Gas Life',
+          description: 'How many money I expend with gas station and how many amount of gas my car consume.',
+          category: 'Finances',
+          img: 'gas.jpg',
+          dev: false,
+          github: 'https://github.com/joaocrleite/gas.joaocrleite.com',
+          url: 'http://gas.joaocrleite.com'
+        },
+        {
           id: 1,
           title: 'Track Bill',
           description: 'Tracking my money for me, I personal finances manager',
@@ -77,16 +87,6 @@ export default {
           dev: true,
           github: 'https://github.com/joaocrleite/rh.joaocrleite.com',
           url: 'http://rh.joaocrleite.com'
-        },
-        {
-          id: 4,
-          title: 'Gas Life',
-          description: 'How many money I expend with gas station and how many amount of gas my car consume.',
-          category: 'Finances',
-          img: 'gas.jpg',
-          dev: true,
-          github: 'https://github.com/joaocrleite/gas.joaocrleite.com',
-          url: 'http://gas.joaocrleite.com'
         },
       ]
     };

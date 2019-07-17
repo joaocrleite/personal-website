@@ -62,8 +62,9 @@ export default {
           this.$store.commit("STOP_LOADING");
 
           this.$toast.open({
-              message: 'Success!',
-              type: 'is-success'
+              message: 'Your message has been sent successfully!',
+              type: 'is-success',
+              duration: 10000
           });
 
           for (var [key, value] of Object.entries(this.errors)) {

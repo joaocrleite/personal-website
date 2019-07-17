@@ -1,67 +1,81 @@
 <template>
-  <section>
-    <h2 class="title is-4">Tech</h2>
+  <section class="experience">
+    <section class="techs">
+      <h2 class="title is-4">Techs</h2>
 
-    <b-tabs position="is-centered" class="block" v-model="activeTech">
-      <b-tab-item label="Todas">
-        <p class="buttons">
-          <a
-            v-for="(item, index) in techFullList"
-            :key="index"
-            :href="item.url"
-            target="_blank"
-            class="button is-light"
-          >
-            <span class="icon" :class="{ 'has-text-danger' : item.level == 4}">
-              <i v-if="item.level == 4" class="fas fa-heart"></i>
-              <i v-else-if="item.level == 3" class="fas fa-battery-three-quarters"></i>
-              <i v-else-if="item.level == 2" class="fas fa-battery-half"></i>
-              <i v-else-if="item.level == 1" class="fas fa-battery-quarter"></i>
-              <i v-else class="fas fa-battery-empty"></i>
-            </span>
+      <b-tabs position="is-centered" class="block" v-model="activeTech">
+        <b-tab-item label="Todas">
+          <p class="buttons">
+            <a
+              v-for="(item, index) in techFullList"
+              :key="index"
+              :href="item.url"
+              target="_blank"
+              class="button is-light"
+            >
+              <span class="icon" :class="{ 'has-text-danger' : item.level == 4}">
+                <i v-if="item.level == 4" class="fas fa-heart"></i>
+                <i v-else-if="item.level == 3" class="fas fa-battery-three-quarters"></i>
+                <i v-else-if="item.level == 2" class="fas fa-battery-half"></i>
+                <i v-else-if="item.level == 1" class="fas fa-battery-quarter"></i>
+                <i v-else class="fas fa-battery-empty"></i>
+              </span>
 
-            <span>{{ item.title }}</span>
-          </a>
-        </p>
-      </b-tab-item>
+              <span>{{ item.title }}</span>
+            </a>
+          </p>
+        </b-tab-item>
 
-      <b-tab-item v-for="(tech, index) in techList" :key="index" :label="tech.title">
-        <p class="buttons">
-          <a
-            v-for="(item, index) in tech.items"
-            :key="index"
-            :href="item.url"
-            target="_blank"
-            class="button is-light"
-          >
-            <span class="icon" :class="{ 'has-text-danger' : item.level == 4}">
-              <i v-if="item.level == 4" class="fas fa-heart"></i>
-              <i v-else-if="item.level == 3" class="fas fa-battery-three-quarters"></i>
-              <i v-else-if="item.level == 2" class="fas fa-battery-half"></i>
-              <i v-else-if="item.level == 1" class="fas fa-battery-quarter"></i>
-              <i v-else class="fas fa-battery-empty"></i>
-            </span>
-            <span>{{ item.title }}</span>
-          </a>
-        </p>
-      </b-tab-item>
-    </b-tabs>
+        <b-tab-item v-for="(tech, index) in techList" :key="index" :label="tech.title">
+          <p class="buttons">
+            <a
+              v-for="(item, index) in tech.items"
+              :key="index"
+              :href="item.url"
+              target="_blank"
+              class="button is-light"
+            >
+              <span class="icon" :class="{ 'has-text-danger' : item.level == 4}">
+                <i v-if="item.level == 4" class="fas fa-heart"></i>
+                <i v-else-if="item.level == 3" class="fas fa-battery-three-quarters"></i>
+                <i v-else-if="item.level == 2" class="fas fa-battery-half"></i>
+                <i v-else-if="item.level == 1" class="fas fa-battery-quarter"></i>
+                <i v-else class="fas fa-battery-empty"></i>
+              </span>
+              <span>{{ item.title }}</span>
+            </a>
+          </p>
+        </b-tab-item>
+      </b-tabs>
+    </section>
 
-    <h2 class="title is-4">Projects</h2>
-
-    <div class="content">
-      <h3 class="subtitle is-size-6">Lorem, ipsum dolor.</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore quis cum dolore repudiandae reprehenderit culpa explicabo sint aperiam illo nobis voluptatibus qui, ipsam eligendi ea doloribus, laboriosam iste voluptatem, tempore nesciunt exercitationem! Alias ipsum debitis nisi et inventore minus laudantium corporis natus, sunt iste. Repudiandae enim eaque tempora eos asperiores.</p>
-
-      <h3 class="subtitle is-size-6">Lorem, ipsum dolor.</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore quis cum dolore repudiandae reprehenderit culpa explicabo sint aperiam illo nobis voluptatibus qui, ipsam eligendi ea doloribus, laboriosam iste voluptatem, tempore nesciunt exercitationem! Alias ipsum debitis nisi et inventore minus laudantium corporis natus, sunt iste. Repudiandae enim eaque tempora eos asperiores.</p>
-
-      <h3 class="subtitle is-size-6">Lorem, ipsum dolor.</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore quis cum dolore repudiandae reprehenderit culpa explicabo sint aperiam illo nobis voluptatibus qui, ipsam eligendi ea doloribus, laboriosam iste voluptatem, tempore nesciunt exercitationem! Alias ipsum debitis nisi et inventore minus laudantium corporis natus, sunt iste. Repudiandae enim eaque tempora eos asperiores.</p>
-
-      <h3 class="subtitle is-size-6">Lorem, ipsum dolor.</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore quis cum dolore repudiandae reprehenderit culpa explicabo sint aperiam illo nobis voluptatibus qui, ipsam eligendi ea doloribus, laboriosam iste voluptatem, tempore nesciunt exercitationem! Alias ipsum debitis nisi et inventore minus laudantium corporis natus, sunt iste. Repudiandae enim eaque tempora eos asperiores.</p>
-    </div>
+    <section class="projects">
+      <h2 class="title is-4">Projects</h2>
+      <div class="content">
+        <div class="project-row">
+          <h3 class="subtitle is-size-5">
+            RFID Cloud Control
+            <small>- 2019</small>
+          </h3>
+          <p>
+            <b>Company:</b>
+            <a
+              href="https://www.linkedin.com/company/agvlogistica/"
+              target="_blank"
+            >AGV Logística SA</a>
+            <br />
+            <b>Description:</b> Web app that can start/stop the rfid reader and show rfid tags finded in real time.
+          </p>
+          <b>Techs:</b>
+          <ul>
+            <li>CSharp (rfid middleware)</li>
+            <li>Node.js (socket server)</li>
+            <li>Vue.js (front-end)</li>
+            <li>Laravel (api)</li>
+          </ul>
+        </div>
+      </div>
+    </section>
   </section>
 </template>
 <script>
@@ -170,7 +184,7 @@ export default {
             {
               title: "Nginx",
               url: "https://www.debian.org/index.pt.html",
-              level: 2
+              level: 3
             }
           ]
         },
@@ -182,6 +196,11 @@ export default {
               title: "Adobe XD",
               url: "https://www.adobe.com/br/products/xd.html",
               level: 4
+            },
+            {
+              title: "Zeplin",
+              url: "https://zeplin.io/",
+              level: 3
             }
           ]
         }

@@ -28,11 +28,11 @@
         </a>
       </p>
     </div>
-    <h1 class="title is-4">Lorem, ipsum dolor.</h1>
+    <h1 class="title is-4">Hi there</h1>
     <div class="content">
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui exercitationem laboriosam nobis voluptates sit ab officia natus magnam facere esse.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui exercitationem laboriosam nobis voluptates sit ab officia natus magnam facere esse.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui exercitationem laboriosam nobis voluptates sit ab officia natus magnam facere esse.</p>
+      <p>I’m a full-stack developer for more than 8 years.</p>
+      <p>I worked in 3 companies through 7 years, where I've accumulated experience in several technologies.</p>
+      <p>Since 2018 I become a consultant , I met a lot of teams around, working in a lot of projects.</p>
     </div>
   </section>
 </template>
