@@ -45,6 +45,15 @@
       <li>Tecnical English - C1</li>
       <li>German - A1</li>
     </ul>
+    <hr>
+    <p class="buttons">
+      <a href="/uploads/joaocrleite.pdf" target="_blank">
+        <b-button type="is-danger"
+          icon-left="cloud-download">
+          Fully CV
+        </b-button>
+      </a>
+    </p>
 
   </section>
 </template>
