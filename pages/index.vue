@@ -30,9 +30,9 @@
     </div>
     <h1 class="title is-4">Hi there</h1>
     <div class="content">
-      <p>I'm a full-stack developer for more than 8 years.</p>
-      <p>I worked in 3 companies through 7 years, where I've accumulated experience in several technologies.</p>
-      <p>Since 2018 I become a consultant , I met a lot of teams around, working in a lot of projects.</p>
+      <p>I'm a full-stack developer with 8+ years of expirience.</p>
+      <p>I've accumulated experience in several technologies.</p>
+      <p>I met a lot of teams around, working in so many projects, learning and boosting my concepts of the web/mobile architecture.</p>
     </div>
   </section>
 </template>

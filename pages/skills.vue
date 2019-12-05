@@ -48,34 +48,6 @@
         </b-tab-item>
       </b-tabs>
     </section>
-
-    <section class="projects">
-      <h2 class="title is-4">Projects</h2>
-      <div class="content">
-        <div class="project-row">
-          <h3 class="subtitle is-size-5">
-            RFID Cloud Control
-            <small>- 2019</small>
-          </h3>
-          <p>
-            <b>Company:</b>
-            <a
-              href="https://www.linkedin.com/company/agvlogistica/"
-              target="_blank"
-            >AGV Logística SA</a>
-            <br />
-            <b>Description:</b> Web app that can start/stop the rfid reader and show rfid tags finded in real time.
-          </p>
-          <b>Techs:</b>
-          <ul>
-            <li>CSharp (rfid middleware)</li>
-            <li>Node.js (socket server)</li>
-            <li>Vue.js (front-end)</li>
-            <li>Laravel (api)</li>
-          </ul>
-        </div>
-      </div>
-    </section>
   </section>
 </template>
 <script>

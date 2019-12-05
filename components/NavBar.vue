@@ -26,14 +26,14 @@ export default {
           to: { name : 'index' }
         },
         {
-          title: 'Personal Projects',
+          title: 'Skills',
           icon: 'about',
-          to: { name : 'apps' }
+          to: { name : 'skills' }
         },
         {
-          title: 'Experience',
+          title: 'Resume',
           icon: 'about',
-          to: { name : 'experience' }
+          to: { name : 'resume' }
         },
         {
           title: 'Contact',
