@@ -82,7 +82,7 @@ export default {
               level: 4
             },
             {
-              title: "Nuxt.js",
+              title: "Nuxt.js / Next.js",
               url: "https://nuxtjs.org",
               level: 3
             },
@@ -99,8 +99,19 @@ export default {
             {
               title: "React.js",
               url: "https://pt-br.reactjs.org",
-              level: 1
-            }
+              level: 3
+            },
+            {
+              title: "React Native",
+              url: "https://facebook.github.io/react-native",
+              level: 2
+            },
+            {
+              title: "Web Sockets",
+              url: "https://socket.io/",
+              level: 3
+            },
+
           ]
         },
         {
@@ -125,6 +136,11 @@ export default {
             {
               title: "Express",
               url: "https://expressjs.com/pt-br",
+              level: 3
+            },
+            {
+              title: "TypeScript",
+              url: "https://www.typescriptlang.org",
               level: 2
             }
           ]
@@ -144,7 +160,7 @@ export default {
               level: 3
             },
             {
-              title: "Debian",
+              title: "Linux - Debian / Ubuntu",
               url: "https://www.debian.org/index.pt.html",
               level: 4
             },
@@ -173,6 +189,38 @@ export default {
               title: "Zeplin",
               url: "https://zeplin.io/",
               level: 3
+            }
+          ]
+        },
+        {
+          id: 5,
+          title: "Desktop",
+          items: [
+            {
+              title: "C#",
+              url: "https://docs.microsoft.com/pt-br/dotnet/csharp/",
+              level: 3
+            }
+          ]
+        },
+        {
+          id: 6,
+          title: "Database",
+          items: [
+            {
+              title: "MySQL",
+              url: "https://www.mysql.com",
+              level: 4
+            },
+            {
+              title: "MSSQL",
+              url: "https://www.microsoft.com/pt-br/sql-server/sql-server-2019",
+              level: 2
+            },
+            {
+              title: "Oracle",
+              url: "https://www.oracle.com/br/database",
+              level: 2
             }
           ]
         }
