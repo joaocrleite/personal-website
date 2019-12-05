@@ -62,7 +62,7 @@ export default {
           this.$store.commit("STOP_LOADING");
 
           this.$toast.open({
-              message: 'Your message has been sent successfully!',
+              message: 'Your message has been sent!',
               type: 'is-success',
               duration: 10000
           });
