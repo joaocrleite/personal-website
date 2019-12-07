@@ -39,7 +39,10 @@ module.exports = {
   ** Plugins to load before mounting the App
   */
   plugins: [
-    '~/plugins/ga.js'
+    {
+      src: '~plugins/ga.js',
+      mode: 'client'
+    }
   ],
   /*
   ** Nuxt.js modules
