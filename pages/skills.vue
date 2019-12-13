@@ -4,7 +4,7 @@
       <h2 class="title is-4">Techs</h2>
 
       <b-tabs position="is-centered" class="block" v-model="activeTech">
-        <b-tab-item label="Todas">
+        <b-tab-item label="All">
           <p class="buttons">
             <a
               v-for="(item, index) in techFullList"

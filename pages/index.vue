@@ -30,7 +30,7 @@
     </div>
     <h1 class="title is-4">Hi there</h1>
     <div class="content">
-      <p>I'm a full-stack developer with 8+ years of expirience.</p>
+      <p>I'm a full-stack developer with 8+ years of experience.</p>
       <p>I've accumulated experience in several technologies.</p>
       <p>I met a lot of teams around, working in so many projects, learning and boosting my concepts of the web/mobile architecture.</p>
     </div>

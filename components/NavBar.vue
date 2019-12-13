@@ -36,6 +36,11 @@ export default {
           to: { name : 'resume' }
         },
         {
+          title: 'Personal Projects',
+          icon: 'about',
+          to: { name : 'apps' }
+        },
+        {
           title: 'Contact',
           icon: 'about',
           to: { name : 'contact' }

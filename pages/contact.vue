@@ -1,6 +1,6 @@
 <template>
   <section>
-    <h2 class="title is-4">What I can help ya?</h2>
+    <h2 class="title is-4">How I can help?</h2>
 
     <p class="subtitle is-6">To: joaocrleite@gmail.com</p>
 
