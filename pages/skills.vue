@@ -234,6 +234,11 @@ export default {
               url: "https://www.python.org/",
               level: 2,
             },
+             {
+              title: "LangChain",
+              url: "https://www.langchain.com/",
+              level: 2,
+            },
             {
               title: "FastAPI",
               url: "https://fastapi.tiangolo.com/",
