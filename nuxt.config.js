@@ -1,20 +1,16 @@
 
-const env = require('dotenv').config();
-
-module.exports = {
-  mode: 'universal',
-
-  env: env.parsed,
-
-  /*
-  ** Headers of the page
-  */
+export default {
+  // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: process.env.npm_package_name || '',
+    title: 'personal-website-nuxt',
+    htmlAttrs: {
+      lang: 'en'
+    },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
+      { hid: 'description', name: 'description', content: '' },
+      { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
@@ -22,53 +18,43 @@ module.exports = {
       { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css' }
     ]
   },
-  /*
-  ** Customize the progress-bar color
-  */
-  loading: {
-    // color: 'blue',
-    // height: '5px'
-  },
-  /*
-  ** Global CSS
-  */
+
+  // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
     '@/assets/scss/main.scss'
   ],
-  /*
-  ** Plugins to load before mounting the App
-  */
+
+  // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
     {
       src: '~plugins/ga.js',
       mode: 'client'
     }
   ],
-  /*
-  ** Nuxt.js modules
-  */
+
+  // Auto import components: https://go.nuxtjs.dev/config-components
+  components: true,
+
+  // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
+  buildModules: [
+  ],
+
+  // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    // Doc: https://buefy.github.io/#/documentation
+    // https://go.nuxtjs.dev/buefy
     'nuxt-buefy',
-    // Doc: https://axios.nuxtjs.org/usage
+    // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
   ],
-  /*
-  ** Axios module configuration
-  ** See https://axios.nuxtjs.org/options
-  */
+
+  // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
-    baseURL: process.env.API_BASE
+    // Workaround to avoid enforcing hard-coded localhost:3000: https://github.com/nuxt-community/axios-module/issues/308
+    baseURL: '/',
   },
-  /*
-  ** Build configuration
-  */
+
+  // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-    /*
-    ** You can extend webpack config here
-    */
-    extend(config, ctx) {
-    }
   },
   server: {
     port: 3001
