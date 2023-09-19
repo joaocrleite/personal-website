@@ -2,40 +2,55 @@
   <section class="resume">
     <h1 class="title">João Carlos Rodrigues Leite Junior</h1>
     <p>
-      <b>Phone:</b> +55 11 95962 4220 <br>
-      <b>Location:</b> Sorocaba, SP - Brazil <br>
+      <b>Phone:</b> +55 11 96846 5962 <br>
+      <b>Location:</b> São Paulo, SP - Brazil <br>
       <b>E-mail:</b> joaocrleite@gmail.com <br>
     </p>
     <hr>
     <h2 class="subtitle">Education</h2>
     <p>
-      Anhembi Morumbi University - Information Technology Management
+      2018 - <b> Morumbi University - Information Technology Management</b>
     </p>
     <hr>
     <h2 class="subtitle">Experience</h2>
     <p>
+      <b>Software Engineer at AmiGo App</b><br>
+      Nov 2022 - Present <br>
+      São Paulo, SP - Brazil /  Miami, FL - USA
+    </p>
+    <p>
+      <b>Staff Software Engineer at DASA</b><br>
+      Mar 2021 - Nov 2022 <br>
+      São Paulo, SP - Brazil
+    </p>
+    <p>
+      <b>Tech Lead at TradeUp Group</b><br>
+      Jun 2020 - Mar 2021 <br>
+      Barueri, SP - Brazil
+    </p>
+    <p>
       <b>Development Consultancy at FlyFox</b><br>
-      Jun 2017 - Present <br>
+      Jun 2017 - May 2020 <br>
       Sorocaba, SP - Brazil
     </p>
     <p>
       <b>CEERT as Lead Full-Stack Developer</b><br>
-      May 2015 – May 2018 <br>
+      May 2015 - May 2018 <br>
       São Paulo, SP - Brazil
     </p>
     <p>
       <b>CEERT as Junior Full-Stack Developer</b><br>
-      Oct 2013 – May 2015 <br>
+      Oct 2013 - May 2015 <br>
       São Paulo, SP - Brazil
     </p>
     <p>
       <b>Samper VCJ as Full-Stack Developer</b><br>
-      Jan 2013 – Aug 2013 <br>
+      Jan 2013 - Aug 2013 <br>
       São Paulo, SP - Brazil
     </p>
     <p>
       <b>StudioArt as Graphic Design</b><br>
-      Jan 2011 – May 2012 <br>
+      Jan 2011 - May 2012 <br>
       São Paulo, SP - Brazil
     </p>
     <hr>
