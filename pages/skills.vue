@@ -199,6 +199,16 @@ export default {
               url: "https://www.typescriptlang.org",
               level: 4,
             },
+             {
+              title: "Java",
+              url: "https://www.java.com/en/",
+              level: 3,
+            },
+            {
+              title: "Spring Boot",
+              url: "https://spring.io/projects/spring-boot",
+              level: 3,
+            },
             {
               title: "GraphQL",
               url: "https://graphql.org/",
