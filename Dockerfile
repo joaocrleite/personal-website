@@ -1,5 +1,5 @@
 # image
-FROM node:11.13.0-alpine
+FROM node:16-alpine
 
 #ENV APP_ROOT /usr/src/nuxt-app
 
@@ -9,15 +9,15 @@ ENV NUXT_HOST=0.0.0.0
 ENV NUXT_PORT=3001
 
 # create destination directory
-RUN mkdir -p /usr/src/joaocrleite.com
-WORKDIR /usr/src/joaocrleite.com
+RUN mkdir -p /usr/src/wwww
+WORKDIR /usr/src/www
 
 # update and install dependency
 RUN apk update && apk upgrade
 RUN apk add git
 
 # copy the app, note .dockerignore
-COPY . /usr/src/joaocrleite.com/
+COPY . /usr/src/www/
 RUN npm install
 
 # build necessary, even if no static files are needed,
